@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_fas1_fu_table1",
+  "source_file": "fas1_fu_table1_Qingyun_20231205.sas",
+  "source_blob_sha": "94e7bd82cc2618835dee53f784ab4ca2d22a0ff9",
+  "source_commit": "68c6326379a32fc1d09e90c4dd6215473092be06",
+  "notes": "Table 1 (baseline characteristics): PROC SQL with computed columns (year(date)-birth_year age derivations, CASE expression), PROC SUMMARY with sum/mean/std/median/q1/q3/min/max autoname over class group_n*even, PROC TRANSPOSE id=cat, incidence-rate CI math, PROC LIFETEST nelson cumulative incidence, final PROC PRINT and PROC FREQ crosstabs. newcoh.analysis_0205 / analysis_1020 replaced with synthetic stand-ins matching read columns; leading 'proc datasets kill' and trailing external ODS RTF omitted so the run is self-contained. Analysis unmodified."
+}

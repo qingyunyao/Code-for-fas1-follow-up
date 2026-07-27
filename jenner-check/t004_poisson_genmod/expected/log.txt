@@ -1,0 +1,261 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library NEWCOH uses 1 concatenated paths.
+NOTE: DATA newcoh.analysis_0205
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote newcoh.analysis_0205 (20 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA analysis
+
+
+NOTE: Read 20 rows from newcoh.analysis_0205.
+NOTE: Wrote analysis (20 rows, 14 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA analysis
+
+
+NOTE: Read 20 rows from analysis.
+NOTE: Wrote analysis (20 rows, 15 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA result_HSIL_poisson_org result_HSIL_poisson_adj
+
+NOTE: Multi-output DATA step splits stream into: result_HSIL_poisson_org result_HSIL_poisson_adj
+
+NOTE: Wrote result_HSIL_poisson_org (0 rows, 0 columns).
+NOTE: Wrote result_HSIL_poisson_adj (0 rows, 0 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GENMOD data=analysis
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: HSIL
+NOTE: Distribution: POISSON
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 20
+NOTE:   Model fitted successfully with 20 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))
+NOTE: PROC GENMOD data=analysis
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: HSIL
+NOTE: Distribution: POISSON
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 20
+NOTE:   Model fitted successfully with 20 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))
+NOTE: DATA result_HSIL_poisson_org
+
+
+NOTE: Read 0 rows from result_HSIL_poisson_org.
+NOTE: Read 0 rows from HSIL_group.
+NOTE: Wrote result_HSIL_poisson_org (0 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA result_HSIL_poisson_adj
+
+
+NOTE: Read 0 rows from result_HSIL_poisson_adj.
+NOTE: Read 0 rows from HSIL_group_adj.
+NOTE: Wrote result_HSIL_poisson_adj (0 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GENMOD data=analysis
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: HSIL
+NOTE: Distribution: POISSON
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 20
+NOTE:   Model fitted successfully with 20 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))
+NOTE: PROC GENMOD data=analysis
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: HSIL
+NOTE: Distribution: POISSON
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 20
+NOTE:   Model fitted successfully with 20 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))
+NOTE: DATA result_HSIL_poisson_org
+
+
+NOTE: Read 0 rows from result_HSIL_poisson_org.
+NOTE: Read 0 rows from HSIL_even.
+NOTE: Wrote result_HSIL_poisson_org (0 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA result_HSIL_poisson_adj
+
+
+NOTE: Read 0 rows from result_HSIL_poisson_adj.
+NOTE: Read 0 rows from HSIL_even_adj.
+NOTE: Wrote result_HSIL_poisson_adj (0 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA result_cancer_poisson_org result_cancer_poisson_adj
+
+NOTE: Multi-output DATA step splits stream into: result_cancer_poisson_org result_cancer_poisson_adj
+
+NOTE: Wrote result_cancer_poisson_org (0 rows, 0 columns).
+NOTE: Wrote result_cancer_poisson_adj (0 rows, 0 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GENMOD data=analysis
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: CANCER
+NOTE: Distribution: POISSON
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 20
+NOTE:   Model fitted successfully with 20 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))
+NOTE: PROC GENMOD data=analysis
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: CANCER
+NOTE: Distribution: POISSON
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 20
+NOTE:   Model fitted successfully with 20 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))
+NOTE: DATA result_cancer_poisson_org
+
+
+NOTE: Read 0 rows from result_cancer_poisson_org.
+NOTE: Read 0 rows from cancer_group.
+NOTE: Wrote result_cancer_poisson_org (0 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA result_cancer_poisson_adj
+
+
+NOTE: Read 0 rows from result_cancer_poisson_adj.
+NOTE: Read 0 rows from cancer_group_adj.
+NOTE: Wrote result_cancer_poisson_adj (0 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC GENMOD data=analysis
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: CANCER
+NOTE: Distribution: POISSON
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 20
+NOTE:   Model fitted successfully with 20 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))
+NOTE: PROC GENMOD data=analysis
+
+NOTE: PROC GENMOD using R wrapper
+NOTE: 
+NOTE: Response Variable: CANCER
+NOTE: Distribution: POISSON
+NOTE: Link Function: LOG
+NOTE: Number of Observations: 20
+NOTE:   Model fitted successfully with 20 observations
+NOTE: ODS plot written: genmod_residuals_vs_predicted.spec.json
+NOTE: ODS plot written: genmod_residual_histogram_panel.spec.json
+NOTE: ODS plot written: genmod_residuals_vs_obs_order.spec.json
+NOTE: ODS plot written: genmod_qq_plot.spec.json
+NOTE: PROC GENMOD ODS Graphics generated.
+NOTE: PROC GENMOD: Emitting ODS OUTPUT datasets (1 destination(s))
+NOTE: DATA result_cancer_poisson_org
+
+
+NOTE: Read 0 rows from result_cancer_poisson_org.
+NOTE: Read 0 rows from cancer_even.
+NOTE: Wrote result_cancer_poisson_org (0 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA result_cancer_poisson_adj
+
+
+NOTE: Read 0 rows from result_cancer_poisson_adj.
+NOTE: Read 0 rows from cancer_even_adj.
+NOTE: Wrote result_cancer_poisson_adj (0 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA hsil_group_rr
+
+
+NOTE: Read 4 rows from hsil_group.
+NOTE: Wrote hsil_group_rr (4 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA hsil_even_rr
+
+
+NOTE: Read 2 rows from hsil_even.
+NOTE: Wrote hsil_even_rr (2 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Crude Poisson incidence-rate ratios by screening group (HSIL outcome).
+NOTE: PROC PRINT data=hsil_group_rr
+
+NOTE: PROC PRINT completed: 4 observations printed, 4 variables
+NOTE: Option TITLE changed to Crude Poisson incidence-rate ratio, primary HPV vs Cytology (HSIL outcome).
+NOTE: PROC PRINT data=hsil_even_rr
+
+NOTE: PROC PRINT completed: 2 observations printed, 4 variables

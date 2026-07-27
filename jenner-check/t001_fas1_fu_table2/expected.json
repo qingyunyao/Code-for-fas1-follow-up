@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-27T20:14:40Z",
+  "_captured_run_id": "r_a5571e51a22743d2910c08c09226e87d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote fu (20 rows, 10 columns).",
+    "NOTE: Wrote table_2 (8 rows, 5 columns).",
+    "NOTE: 1 duplicate observations were deleted.",
+    "NOTE: PROC PRINT completed: 7 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

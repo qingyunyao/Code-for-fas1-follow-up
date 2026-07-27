@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-27T20:18:35Z",
+  "_captured_run_id": "r_ac01750dce74479caba5f62ba97e1f5d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote invitation_ndk (8 rows, 3 columns).",
+    "NOTE: Wrote inv_1214_3 (7 rows, 4 columns).",
+    "NOTE: Wrote inv (7 rows, 6 columns)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

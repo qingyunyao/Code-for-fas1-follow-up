@@ -1,0 +1,122 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library NEWCOH uses 1 concatenated paths.
+NOTE: DATA newcoh.analysis_0205
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote newcoh.analysis_0205 (10 rows, 22 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA newcoh.analysis_1020
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote newcoh.analysis_1020 (10 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table table1_stat created.
+NOTE: PROC SQL statement used.
+NOTE: PROC MEANS
+NOTE: Output dataset table1_even has 11 observations and 49 variables.
+NOTE: PROC MEANS statement used.
+NOTE: DATA table1_organize
+
+
+NOTE: Read 11 rows from table1_even.
+NOTE: Wrote table1_organize (7 rows, 16 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TRANSPOSE data=table1_organize
+
+NOTE: Created 15 rows.
+NOTE: Output written to /tmp/work/r_b428c1758b4e4251b9538dbcc01a02b1/work/340959b9-9436-42e8-9729-bffda9f4f5d1/table1_trans.avro.
+NOTE: PROC MEANS
+NOTE: Output dataset IR_HSIL has 9 observations and 6 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC MEANS
+NOTE: Output dataset IR_cancer has 11 observations and 6 variables.
+NOTE: PROC MEANS statement used.
+NOTE: PROC SQL 
+
+NOTE: Table IRs created.
+NOTE: PROC SQL statement used.
+NOTE: DATA table1_IR
+
+
+NOTE: Read 3 rows from IRs.
+NOTE: Wrote table1_IR (0 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TRANSPOSE data=table1_ir
+
+NOTE: Created 2 rows.
+NOTE: Output written to /tmp/work/r_b428c1758b4e4251b9538dbcc01a02b1/work/340959b9-9436-42e8-9729-bffda9f4f5d1/table1_trans_ir.avro.
+NOTE: PROC LIFETEST data=newcoh.analysis_1020
+
+NOTE: Using Python lifelines version 0.30.3
+NOTE: OUTSURV dataset 'can_sur_even' written to: /tmp/work/r_b428c1758b4e4251b9538dbcc01a02b1/work/340959b9-9436-42e8-9729-bffda9f4f5d1/can_sur_even.avro
+NOTE: PROC LIFETEST completed.
+NOTE: DATA can_sur_even
+
+
+NOTE: Read 2 rows from can_sur_even.
+NOTE: Wrote can_sur_even (2 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=can_sur_even
+
+NOTE: Read 2 rows from can_sur_even.
+NOTE: Wrote can_sur_even (2 rows, 7 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC SORT data=can_sur_even
+
+NOTE: 1 duplicate observations were deleted.
+NOTE: Read 2 rows from can_sur_even.
+NOTE: Wrote can_sur_even (1 rows, 7 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA sur_pro
+
+
+NOTE: Read 1 rows from can_sur_even.
+NOTE: Wrote sur_pro (1 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC TRANSPOSE data=sur_pro
+
+NOTE: Created 1 rows.
+NOTE: Output written to /tmp/work/r_b428c1758b4e4251b9538dbcc01a02b1/work/340959b9-9436-42e8-9729-bffda9f4f5d1/table1_sur_trans.avro.
+NOTE: DATA table_1
+
+
+NOTE: Read 15 rows from table1_trans.
+NOTE: Read 2 rows from table1_trans_ir.
+NOTE: Read 1 rows from table1_sur_trans.
+NOTE: Wrote table_1 (18 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=table_1
+
+NOTE: PROC PRINT completed: 18 observations printed, 8 variables
+NOTE: DATA sample_yr
+
+
+NOTE: Read 10 rows from table1_stat.
+NOTE: Wrote sample_yr (10 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_sample_yr_group_n.spec.json
+NOTE: ODS plot written: freq_mosaic_sample_yr_even.spec.json
+NOTE: PROC FREQ statement used.

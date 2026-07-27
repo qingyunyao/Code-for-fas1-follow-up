@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-27T20:41:58Z",
+  "_captured_run_id": "r_2daeb0426fce4988ada3bce2d7501868",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote analysis (20 rows, 15 columns).",
+    "NOTE: Wrote hsil_group_rr (4 rows, 9 columns).",
+    "NOTE: Wrote hsil_even_rr (2 rows, 9 columns).",
+    "NOTE: PROC PRINT completed: 4 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

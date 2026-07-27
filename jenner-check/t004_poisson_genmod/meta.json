@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_poisson_genmod",
+  "source_file": "possion_20231128_QY_pvalue.sas",
+  "source_blob_sha": "c91c4f8e29d825ad332b4a4f15ec71049b088bb4",
+  "source_commit": "68c6326379a32fc1d09e90c4dd6215473092be06",
+  "notes": "Poisson incidence-rate-ratio regression: analysis prep (log() offset variables, year() of sample date, rename), the %poisson macro (with %if/%then/%do conditional WHERE logic on outcome+subgroup), PROC GENMOD dist=poisson link=log offset= with class (ref=) glm parameterization, store, and ods output ParameterEstimates, invoked for the group and even exposures on HSIL and cancer outcomes. newcoh.analysis_0205 replaced with a 20-row synthetic cohort matching read columns; the sensitivity-analysis re-read of an external derived dataset and the trailing external ODS RTF export are omitted, and the closing PROC PRINT reports IRR=exp(estimate) from the GENMOD parameter-estimate output so the run is self-contained. Macro and genmod code otherwise unmodified."
+}

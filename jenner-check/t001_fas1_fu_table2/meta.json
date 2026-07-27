@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_fas1_fu_table2",
+  "source_file": "fas1_fu_table2_Qingyun_20231205.sas",
+  "source_blob_sha": "9c3976de6834429ca4dca5eac5b2a6365884ee52",
+  "source_commit": "68c6326379a32fc1d09e90c4dd6215473092be06",
+  "notes": "Table 2 (follow-up participation): data-step yr_dif follow-up flags, PROC FREQ /chisq crosstabs, two PROC SUMMARY sum()/mean()/autoname, PROC SORT nodupkey, cat()/put() label formatting, final PROC PRINT. Two source registry datasets (newcoh.analysis_scr_test_0206, newcoh.analysis_pos_fu_scr_0206) replaced by a small synthetic newcoh library in autoexec matching the columns the script reads; the trailing ODS RTF export to a hardcoded external Windows path was dropped so the run is self-contained. Analysis code otherwise unmodified."
+}
