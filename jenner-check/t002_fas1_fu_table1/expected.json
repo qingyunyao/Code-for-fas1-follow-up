@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-27T20:16:57Z",
+  "_captured_run_id": "r_b428c1758b4e4251b9538dbcc01a02b1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote table1_organize (7 rows, 16 columns).",
+    "NOTE: Wrote table_1 (18 rows, 8 columns).",
+    "NOTE: PROC PRINT completed: 18 observations printed, 8 variables",
+    "NOTE: Wrote sample_yr (10 rows, 3 columns)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

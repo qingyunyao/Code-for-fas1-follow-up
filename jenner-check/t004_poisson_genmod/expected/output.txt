@@ -1,0 +1,264 @@
+      The GENMOD Procedure      
+       Model Information        
+
+Item                       Value
+----------------------  --------
+Response Variable           HSIL
+Distribution             poisson
+Link Function                log
+Number of Observations        20
+Offset Variable         LOG_HSIL
+
+       Analysis of Maximum Likelihood Parameter Estimates        
+
+Parameter         DF  Estimate  Std Error  Chi-Square  Pr > ChiSq
+----------  --------  --------  ---------  ----------  ----------
+Intercept          1   -2.8507     0.7071     16.2531      <.0001
+groupCYT_N         1   -0.8051     1.2247      0.4322      0.5109
+groupCYT_P         1    0.8030     0.8660      0.8598      0.3538
+groupHPV_P         1    0.5924     0.9129      0.4212      0.5164
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance         13.9215
+Log Likelihood  -16.9608
+AIC              41.9215
+BIC              45.9045
+
+    LR Statistics For Type 3 Analysis     
+
+Source          DF  Chi-Square  Pr > ChiSq
+--------  --------  ----------  ----------
+group            3      2.5297      0.4699
+
+      The GENMOD Procedure      
+       Model Information        
+
+Item                       Value
+----------------------  --------
+Response Variable           HSIL
+Distribution             poisson
+Link Function                log
+Number of Observations        20
+Offset Variable         LOG_HSIL
+
+       Analysis of Maximum Likelihood Parameter Estimates        
+
+Parameter         DF  Estimate  Std Error  Chi-Square  Pr > ChiSq
+----------  --------  --------  ---------  ----------  ----------
+Intercept          1   -2.8507     0.7071     16.2531      <.0001
+groupCYT_N         1   -0.8051     1.2247      0.4322      0.5109
+groupCYT_P         1    0.8030     0.8660      0.8598      0.3538
+groupHPV_P         1    0.5924     0.9129      0.4212      0.5164
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance         13.9215
+Log Likelihood  -16.9608
+AIC              41.9215
+BIC              45.9045
+
+      The GENMOD Procedure      
+       Model Information        
+
+Item                       Value
+----------------------  --------
+Response Variable           HSIL
+Distribution             poisson
+Link Function                log
+Number of Observations        20
+Offset Variable         LOG_HSIL
+
+       Analysis of Maximum Likelihood Parameter Estimates       
+
+Parameter        DF  Estimate  Std Error  Chi-Square  Pr > ChiSq
+---------  --------  --------  ---------  ----------  ----------
+Intercept         1   -2.6348     0.4472     34.7134      <.0001
+even1             1    0.0963     0.6324      0.0232      0.8790
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance         17.0079
+Log Likelihood  -18.5039
+AIC              41.0079
+BIC              42.9993
+
+    LR Statistics For Type 3 Analysis     
+
+Source          DF  Chi-Square  Pr > ChiSq
+--------  --------  ----------  ----------
+even             1      0.0232      0.8790
+
+      The GENMOD Procedure      
+       Model Information        
+
+Item                       Value
+----------------------  --------
+Response Variable           HSIL
+Distribution             poisson
+Link Function                log
+Number of Observations        20
+Offset Variable         LOG_HSIL
+
+       Analysis of Maximum Likelihood Parameter Estimates       
+
+Parameter        DF  Estimate  Std Error  Chi-Square  Pr > ChiSq
+---------  --------  --------  ---------  ----------  ----------
+Intercept         1   -2.6348     0.4472     34.7134      <.0001
+even1             1    0.0963     0.6324      0.0232      0.8790
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance         17.0079
+Log Likelihood  -18.5039
+AIC              41.0079
+BIC              42.9993
+
+       The GENMOD Procedure       
+        Model Information         
+
+Item                         Value
+----------------------  ----------
+Response Variable           cancer
+Distribution               poisson
+Link Function                  log
+Number of Observations          20
+Offset Variable         LOG_CANCER
+
+       Analysis of Maximum Likelihood Parameter Estimates        
+
+Parameter         DF  Estimate  Std Error  Chi-Square  Pr > ChiSq
+----------  --------  --------  ---------  ----------  ----------
+Intercept          1  -22.4232  6907.6849      0.0000      0.9974
+groupCYT_N         1   18.6927  6907.6850      0.0000      0.9978
+groupCYT_P         1    0.0398  9742.3530      0.0000      1.0000
+groupHPV_P         1   19.7252  6907.6850      0.0000      0.9977
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance          9.5090
+Log Likelihood   -7.7545
+AIC              23.5090
+BIC              27.4920
+
+    LR Statistics For Type 3 Analysis     
+
+Source          DF  Chi-Square  Pr > ChiSq
+--------  --------  ----------  ----------
+group            3      0.7107      0.8707
+
+       The GENMOD Procedure       
+        Model Information         
+
+Item                         Value
+----------------------  ----------
+Response Variable           cancer
+Distribution               poisson
+Link Function                  log
+Number of Observations          20
+Offset Variable         LOG_CANCER
+
+       Analysis of Maximum Likelihood Parameter Estimates        
+
+Parameter         DF  Estimate  Std Error  Chi-Square  Pr > ChiSq
+----------  --------  --------  ---------  ----------  ----------
+Intercept          1  -22.4232  6907.6849      0.0000      0.9974
+groupCYT_N         1   18.6927  6907.6850      0.0000      0.9978
+groupCYT_P         1    0.0398  9742.3530      0.0000      1.0000
+groupHPV_P         1   19.7252  6907.6850      0.0000      0.9977
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance          9.5090
+Log Likelihood   -7.7545
+AIC              23.5090
+BIC              27.4920
+
+       The GENMOD Procedure       
+        Model Information         
+
+Item                         Value
+----------------------  ----------
+Response Variable           cancer
+Distribution               poisson
+Link Function                  log
+Number of Observations          20
+Offset Variable         LOG_CANCER
+
+       Analysis of Maximum Likelihood Parameter Estimates       
+
+Parameter        DF  Estimate  Std Error  Chi-Square  Pr > ChiSq
+---------  --------  --------  ---------  ----------  ----------
+Intercept         1   -4.4152     1.0000     19.4942      <.0001
+even1             1    0.8331     1.2247      0.4627      0.4964
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance         14.4150
+Log Likelihood  -10.2075
+AIC              24.4150
+BIC              26.4065
+
+    LR Statistics For Type 3 Analysis     
+
+Source          DF  Chi-Square  Pr > ChiSq
+--------  --------  ----------  ----------
+even             1      0.4627      0.4964
+
+       The GENMOD Procedure       
+        Model Information         
+
+Item                         Value
+----------------------  ----------
+Response Variable           cancer
+Distribution               poisson
+Link Function                  log
+Number of Observations          20
+Offset Variable         LOG_CANCER
+
+       Analysis of Maximum Likelihood Parameter Estimates       
+
+Parameter        DF  Estimate  Std Error  Chi-Square  Pr > ChiSq
+---------  --------  --------  ---------  ----------  ----------
+Intercept         1   -4.4152     1.0000     19.4942      <.0001
+even1             1    0.8331     1.2247      0.4627      0.4964
+
+Criteria for Assessing Goodness of Fit
+
+Criterion          Value
+--------------  --------
+Deviance         14.4150
+Log Likelihood  -10.2075
+AIC              24.4150
+BIC              26.4065
+                         Crude Poisson incidence-rate ratios by screening group (HSIL outcome)
+
+
+ Parameter       Estimate           IRR     ProbChiSq
+----------  -------------  ------------  ------------
+Intercept   -2.8507065015  0.0578034682  0.0000554202
+GROUPCYT_N  -0.8051330986  0.4470284238  0.5109309638
+GROUPCYT_P   0.8030136581  2.2322580645  0.3538017811
+GROUPHPV_P   0.5924216674  1.8083623693  0.5163607265
+
+                       Crude Poisson incidence-rate ratio, primary HPV vs Cytology (HSIL outcome)
+
+
+Parameter       Estimate           IRR     ProbChiSq
+---------  -------------  ------------  ------------
+Intercept  -2.6347624001  0.0717360119  0.0000000038
+EVEN1       0.0963149834  1.1011058394  0.8789569505

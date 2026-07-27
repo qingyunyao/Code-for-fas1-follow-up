@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_fas1_flow_chart",
+  "source_file": "Fas1_fc_bl_QY_flow chart.sas",
+  "source_blob_sha": "735256b5c169fd380ecde39ebbdae20225da41cb",
+  "source_commit": "68c6326379a32fc1d09e90c4dd6215473092be06",
+  "notes": "Flow chart / baseline statistics: invitation-population dedup (PROC SORT nodupkey out=), date-window filtering with datepart() of a SAS datetime and SAS date-literal WHERE ('01Oct2011'd<x<'31may2014'd), match-merge (merge in=a in=b; by person_id; if a and b), and PROC FREQ crosstabs on the analysis cohort. Three external registry libraries (fas1, v_ncsr, newcoh) replaced with synthetic stand-ins matching read columns; closing FREQ block trimmed to crosstabs over the mocked columns so the run is self-contained. Flow-chart logic unmodified."
+}
